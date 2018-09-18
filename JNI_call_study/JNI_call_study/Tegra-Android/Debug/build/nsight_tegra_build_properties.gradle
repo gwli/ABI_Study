@@ -1,0 +1,24 @@
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://maven.google.com" }
+    }
+    ext {
+        nsight_tegra_androidBuildPlugin = 'com.android.tools.build:gradle:2.3.3'
+        nsight_tegra_jni_src_dirs = []
+        nsight_tegra_jni_libs_dirs = ["I:/git/ABI_study/JNI_call_study/JNI_call_study/Tegra-Android/Debug/build/libs"]
+        nsight_tegra_java_src_dirs = ["I:/git/ABI_study/JNI_call_study/JNI_call_study/src"]
+        nsight_tegra_asset_dirs = ["I:/git/ABI_study/JNI_call_study/JNI_call_study/assets"]
+        nsight_tegra_build_tools_version = "28.0.2"
+        nsight_tegra_build_dir = "I:/git/ABI_study/JNI_call_study/JNI_call_study/Tegra-Android/Debug/build"
+        nsight_tegra_project_name = "JNI_call_study"
+        nsight_tegra_project_dir = "I:/git/ABI_study/JNI_call_study/JNI_call_study/"
+        nsight_tegra_project_dependencies = []
+        nsight_tegra_package_manifest_path = "I:/git/ABI_study/JNI_call_study/JNI_call_study/Tegra-Android/Debug/build/nsight_tegra_manifest.xml"
+        nsight_tegra_compile_sdk_version = 19
+        nsight_tegra_min_sdk_version = 19
+        nsight_tegra_target_sdk_version = 19
+        nsight_tegra_debuggable = true
+        nsight_tegra_jni_debuggable = true
+    }
+}

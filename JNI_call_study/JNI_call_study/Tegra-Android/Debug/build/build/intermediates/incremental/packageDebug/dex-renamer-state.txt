@@ -1,0 +1,4 @@
+#Tue Sep 18 01:39:58 PDT 2018
+base.0=I\:\\git\\ABI_study\\JNI_call_study\\JNI_call_study\\Tegra-Android\\Debug\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=I\:\\git\\ABI_study\\JNI_call_study\\JNI_call_study\\Tegra-Android\\Debug\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

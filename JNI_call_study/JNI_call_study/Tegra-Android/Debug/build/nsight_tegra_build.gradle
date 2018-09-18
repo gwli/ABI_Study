@@ -1,0 +1,67 @@
+buildscript {
+    repositories { jcenter() }
+
+    def propertyName = 'nsight_tegra_build_properties_file_path'
+    def propertyFileName = 'nsight_tegra_build_properties.gradle'
+    def propertyFilePath = ext.has(propertyName) ? ext[propertyName] ?: propertyFileName : propertyFileName
+    apply from: propertyFilePath
+
+    dependencies { classpath project.ext.nsight_tegra_androidBuildPlugin }
+}
+
+apply plugin: "com.android.application"
+
+buildDir = nsight_tegra_build_dir
+archivesBaseName = nsight_tegra_project_name
+
+dependencies {
+    nsight_tegra_project_dependencies.each({
+        // TODO: 1. This code only handles the local Unix-slashed paths to JAR files 'c:/this/is/my.jar'
+        if(file(it).exists()) {
+             // TODO: 2. The dependencies could only be added into the 'compile' configuration
+             add('compile', files(it))
+        }
+   })
+}
+
+android {
+    compileSdkVersion nsight_tegra_compile_sdk_version
+    buildToolsVersion nsight_tegra_build_tools_version
+
+    sourceSets.main {
+        setRoot nsight_tegra_project_dir
+        if (project.hasProperty('nsight_tegra_package_manifest_path')) {
+            manifest.srcFile nsight_tegra_package_manifest_path
+        }
+        jni.srcDirs = nsight_tegra_jni_src_dirs
+        jniLibs.srcDirs = nsight_tegra_jni_libs_dirs
+        java.srcDirs = nsight_tegra_java_src_dirs
+        assets.srcDirs = nsight_tegra_asset_dirs
+    }
+
+    defaultConfig {
+        if (project.hasProperty('nsight_tegra_min_sdk_version')) {
+            minSdkVersion nsight_tegra_min_sdk_version
+        }
+        if (project.hasProperty('nsight_tegra_target_sdk_version')) {
+            targetSdkVersion nsight_tegra_target_sdk_version
+        }
+        if (project.hasProperty('nsight_tegra_max_sdk_version')) {
+            maxSdkVersion nsight_tegra_max_sdk_version
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+
+    buildTypes {
+        debug {
+            debuggable nsight_tegra_debuggable
+            jniDebuggable nsight_tegra_jni_debuggable
+            if (signingConfigs.getByName('debug') != null) {
+                signingConfig signingConfigs.debug
+            }
+        }
+    }
+}
