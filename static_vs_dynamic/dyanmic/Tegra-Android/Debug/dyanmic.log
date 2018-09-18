@@ -1,0 +1,524 @@
+﻿Build started 9/18/2018 12:53:05 AM.
+     1>Project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" on node 3 (Build target(s)).
+     1>Building with tools version "14.0".
+       Project file contains ToolsVersion="4.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="14.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=293424.
+     1>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (entry point):
+       Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+       Using "Message" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Message"
+         Configuration=Debug
+       Done executing task "Message".
+       Task "Message"
+         Platform=Tegra-Android
+       Done executing task "Message".
+       Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\' != '' and !HasTrailingSlash('I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\')).
+       Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+       Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Tegra-Android\Debug\' != '' and !HasTrailingSlash('Tegra-Android\Debug\')).
+     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "dyanmic.vcxproj".
+     1>Target "_PrepareForBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.BuildSteps.Targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "Build" depends on it):
+       Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
+     1>Done building target "_PrepareForBuild" in project "dyanmic.vcxproj".
+     1>Target "_PrepareForReferenceResolution" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveReferences" depends on it):
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "_PrepareForReferenceResolution" in project "dyanmic.vcxproj".
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('dyanmic.cpp'!='' and 'false'=='true' and '' != 'false').
+     1>Target "BeforeResolveReferences" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveReferences" depends on it):
+     1>Done building target "BeforeResolveReferences" in project "dyanmic.vcxproj".
+     1>Target "AssignProjectConfiguration" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveReferences" depends on it):
+       Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignProjectConfiguration"
+       Done executing task "AssignProjectConfiguration".
+     1>Done building target "AssignProjectConfiguration" in project "dyanmic.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+     1>Target "_SplitProjectReferencesByFileExistence" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveProjectReferences" depends on it):
+       Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+     1>Done building target "_SplitProjectReferencesByFileExistence" in project "dyanmic.vcxproj".
+       Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+     1>Target "ResolveProjectReferences" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveReferences" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '14.0' != '10.0' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '14.0' == '10.0' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+       Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+     1>Done building target "ResolveProjectReferences" in project "dyanmic.vcxproj".
+       Target "FindInvalidProjectReferences" skipped, due to false condition; ('$(FindInvalidProjectReferences)' == 'true') was evaluated as ('' == 'true').
+       Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+     1>Target "GetFrameworkPaths" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.NetFramework.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+     1>Done building target "GetFrameworkPaths" in project "dyanmic.vcxproj".
+       Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+     1>Target "GetReferenceAssemblyPaths" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+     1>Done building target "GetReferenceAssemblyPaths" in project "dyanmic.vcxproj".
+     1>Target "SetBuildDefaultEnvironmentVariables" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Cpp.Current.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "PrepareForBuild" depends on it):
+       Using "SetEnv" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.Build.CppTasks.Common.dll".
+       Task "SetEnv"
+         PATH=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Perl\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;I:\NVPACK\android-sdk-25.1.3_withN\platform-tools;
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         LIB=;I:\NVPACK\android-ndk-r14b\platforms\android-19\arch-arm\usr\lib;;I:\NVPACK\android-ndk-r14b\sources\cxx-stl\llvm-libc++\libs\armeabi-v7a
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         LIBPATH=
+       Done executing task "SetEnv".
+       Task "SetEnv"
+         INCLUDE=;I:\NVPACK\android-ndk-r14b\platforms\android-19\arch-arm\usr\include;I:\NVPACK\android-ndk-r14b\toolchains\llvm\prebuilt\windows-x86_64\lib64\clang\3.8\include;I:\NVPACK\android-ndk-r14b\sources\cxx-stl\llvm-libc++\include;I:\NVPACK\android-ndk-r14b\sources\android\support\include
+       Done executing task "SetEnv".
+     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "dyanmic.vcxproj".
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
+     1>Target "GetResolvedWinMD" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "PrepareForBuild" depends on it):
+     1>Done building target "GetResolvedWinMD" in project "dyanmic.vcxproj".
+     1>Target "CheckNdkAndSdk" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Tegra-Android\Nvidia.AndroidBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "PrepareForBuild" depends on it):
+       Task "Error" skipped, due to false condition; ('$(SdkRootPath)' == '') was evaluated as ('I:\NVPACK\android-sdk-25.1.3_withN\data' == '').
+       Task "Error" skipped, due to false condition; (!exists('$(SdkRootPath)')) was evaluated as (!exists('I:\NVPACK\android-sdk-25.1.3_withN\data')).
+       Task "Error" skipped, due to false condition; (!exists('$(SdkAdbPath)')) was evaluated as (!exists('I:\NVPACK\android-sdk-25.1.3_withN\data\platform-tools\adb.exe')).
+       Task "Error" skipped, due to false condition; (!exists('$(SdkPropertiesFilePath)')) was evaluated as (!exists('I:\NVPACK\android-sdk-25.1.3_withN\data\tools\source.properties')).
+       Task "Error" skipped, due to false condition; ('$(SdkRev)' == '') was evaluated as ('26' == '').
+       Task "Error" skipped, due to false condition; ($(SdkRev) < $(SdkMinRev)) was evaluated as (26 < 21).
+       Task "Error" skipped, due to false condition; ('$(ToolchainRootPath)' == '') was evaluated as ('I:\NVPACK\android-ndk-r14b' == '').
+       Task "Error" skipped, due to false condition; (!exists('$(ToolchainRootPath)')) was evaluated as (!exists('I:\NVPACK\android-ndk-r14b')).
+       Task "Error" skipped, due to false condition; ('$(IsNdkRevisionAcquired)' != 'true') was evaluated as ('true' != 'true').
+       Task "Error" skipped, due to false condition; ('$(UnsupportedNdkRevision)' != '') was evaluated as ('' != '').
+       Task "Error" skipped, due to false condition; ('$(Is64BitSystem)' != 'true' and '$(Is64BitNdk)' == 'true') was evaluated as ('true' != 'true' and 'true' == 'true').
+       Task "Error" skipped, due to false condition; ($(NdkRevisionCode) < $(NdkRevisionCode_r9c) and '$(ToolchainArchitecture)' == 'armv7-a-hard') was evaluated as (141 < 92 and 'armv7-a' == 'armv7-a-hard').
+       Task "Error" skipped, due to false condition; ($(NdkRevisionCode) < $(NdkRevisionCode_r10) and '$(Is64BitArchitecture)' == 'true') was evaluated as (141 < 100 and 'false' == 'true').
+       Task "Error" skipped, due to false condition; ($(NdkRevisionCode) > $(NdkRevisionCode_r11c) and '$(ToolchainArchitecture)' == 'armv7-a-hard') was evaluated as (141 > 112 and 'armv7-a' == 'armv7-a-hard').
+       Task "Error" skipped, due to false condition; ('$(Is64BitArchitecture)' == 'true' and $(APILevelNumber) < 21) was evaluated as ('false' == 'true' and 19 < 21).
+       Task "Error" skipped, due to false condition; ('$(JdkRootPath)' == '') was evaluated as ('I:\NVPACK\jdk1.8.0_77' == '').
+       Task "Error" skipped, due to false condition; (!exists('$(JdkRootPath)')) was evaluated as (!exists('I:\NVPACK\jdk1.8.0_77')).
+       Task "Error" skipped, due to false condition; (!exists('$(JavaCompilerPath)')) was evaluated as (!exists('I:\NVPACK\jdk1.8.0_77\bin\javac.exe')).
+       Task "Error" skipped, due to false condition; ('$(AndroidBuildSystem)' == 'AntBuild' and '$(AntRootPath)' == '') was evaluated as ('GradleBuild' == 'AntBuild' and 'I:\NVPACK\apache-ant-1.8.2' == '').
+       Task "Error" skipped, due to false condition; ('$(AndroidBuildSystem)' == 'AntBuild' and !exists('$(AntRootPath)')) was evaluated as ('GradleBuild' == 'AntBuild' and !exists('I:\NVPACK\apache-ant-1.8.2')).
+       Task "Error" skipped, due to false condition; ('$(AndroidBuildSystem)' == 'AntBuild' and !exists('$(AntBatPath)')) was evaluated as ('GradleBuild' == 'AntBuild' and !exists('I:\NVPACK\apache-ant-1.8.2\bin\ant.bat')).
+       Task "Error" skipped, due to false condition; ('$(AndroidBuildSystem)' == 'AntBuild' and !exists('$(AntDefaultBuildScriptPath)')) was evaluated as ('GradleBuild' == 'AntBuild' and !exists('I:\NVPACK\android-sdk-25.1.3_withN\data\tools\ant\build.xml')).
+       Task "Warning" skipped, due to false condition; ('$(NsightTegraProjectRevisionNumber)' != '' and $(NsightTegraProjectRevisionNumber) < 9) was evaluated as ('11' != '' and 11 < 9).
+     1>Done building target "CheckNdkAndSdk" in project "dyanmic.vcxproj".
+       Target "GetFrameworkPaths" skipped. Previously built successfully.
+       Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+       Target "AssignLinkMetadata" skipped, due to false condition; ( '$(SynthesizeLinkMetadata)' == 'true' ) was evaluated as ( '' == 'true' ).
+     1>Target "SetCABuildNativeEnvironmentVariables" in file "C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v14.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "PrepareForBuild" depends on it):
+       Initializing task factory "CodeTaskFactory" from assembly "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Build.Tasks.Core.dll".
+       Using "SetEnvironmentVariable" task from the task factory "Code Task Factory".
+       Task "SetEnvironmentVariable"
+       Done executing task "SetEnvironmentVariable".
+     1>Done building target "SetCABuildNativeEnvironmentVariables" in project "dyanmic.vcxproj".
+     1>Target "PrepareForBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as ('' != 'true' and 'true' != 'true').
+       Using "MakeDir" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "MakeDir"
+       Done executing task "MakeDir".
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') was evaluated as (''!='true' and 'false'=='true' and 'DynamicLibrary'!='Application' and 'DynamicLibrary'!='DynamicLibrary' and 'DynamicLibrary'!='StaticLibrary').
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' )) was evaluated as (''!='true' and '*undefined*'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' )).
+       Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and '*undefined*'=='' and '' != 'true' and ''=='v90').
+       Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('*undefined*'=='' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('*undefined*'=='' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+       Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+       Task "VCMessage" skipped, due to false condition; ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') was evaluated as ('' != '' and ''!='true').
+       Task "VCMessage" skipped, due to false condition; ('$(_MBCS_Using)' == 'true' and '$(_MBCS_Installed)' != 'true' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' == 'true' and '' != 'true' and '' != 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true') was evaluated as ('' != 'true' and '' == 'true').
+       Task "VCMessage" skipped, due to false condition; ('$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true')) was evaluated as ('' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true')).
+       Task "MakeDir"
+         Creating directory "Tegra-Android\Debug\dyanmic.tlog\".
+       Done executing task "MakeDir".
+     1>Done building target "PrepareForBuild" in project "dyanmic.vcxproj".
+       Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+       Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('dyanmic.cpp'!='' and 'false'=='true' and '' != 'false').
+     1>Target "GetInstalledSDKLocations" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveSDKReferences" depends on it):
+       Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+       Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '' and '$(SupportWindows81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindows81)' != '' and '$(TargetPlatformVersionWindows81)' != '') was evaluated as ('' != '' and '' == 'true' and '' != '' and '' != '').
+       Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '' and '$(SupportWindowsPhone81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindowsPhone81)' != '' and '$(TargetPlatformVersionWindowsPhone81)' != '') was evaluated as ('' != '' and '' == 'true' and '' != '' and '' != '').
+     1>Done building target "GetInstalledSDKLocations" in project "dyanmic.vcxproj".
+     1>Target "ModifyUnitTestPlatformVersion" in file "C:\Program Files (x86)\MSBuild\14.0\Microsoft.Common.targets\ImportBefore\Windows.8.1.UT_SDKReference.props" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveSDKReferences" depends on it):
+     1>Done building target "ModifyUnitTestPlatformVersion" in project "dyanmic.vcxproj".
+     1>Target "ResolveSDKReferences" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+     1>Done building target "ResolveSDKReferences" in project "dyanmic.vcxproj".
+       Target "ResolveSDKReferences" skipped. Previously built successfully.
+     1>Target "ExpandSDKReferences" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+       Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+     1>Done building target "ExpandSDKReferences" in project "dyanmic.vcxproj".
+       Target "ResolveNuGetPackageAssets" skipped, due to false condition; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) was evaluated as ('true' == 'true' and exists('project.lock.json')).
+     1>Target "ResolveAssemblyReferences" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveReferences" depends on it):
+       Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
+     1>Done building target "ResolveAssemblyReferences" in project "dyanmic.vcxproj".
+       Target "GenerateBindingRedirects" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
+       Target "GenerateBindingRedirectsUpdateAppConfig" skipped, due to false condition; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) was evaluated as ('' == 'true' and '' == 'true' and Exists('Tegra-Android\Debug\dyanmic.vcxproj.libdyanmic.so.config')).
+       Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+     1>Target "AfterResolveReferences" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ResolveReferences" depends on it):
+     1>Done building target "AfterResolveReferences" in project "dyanmic.vcxproj".
+       Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+       Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+     1>Target "ResolveReferences" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "Build" depends on it):
+     1>Done building target "ResolveReferences" in project "dyanmic.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "PrepareForBuild" skipped. Previously built successfully.
+     1>Target "InitializeBuildStatus" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "Build" depends on it):
+       Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "ReadLinesFromFile"
+       Done executing task "ReadLinesFromFile".
+       Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "WriteLinesToFile"
+       Done executing task "WriteLinesToFile".
+       Using "Touch" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Touch"
+         Creating "Tegra-Android\Debug\dyanmic.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       Done executing task "Touch".
+     1>Done building target "InitializeBuildStatus" in project "dyanmic.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildGenerateSourcesTraverse" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildGenerateSources" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+     1>Done building target "BuildGenerateSourcesTraverse" in project "dyanmic.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "BeforeBuildGenerateSources" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.BuildSteps.Targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "BeforeBuildGenerateSources" in project "dyanmic.vcxproj".
+     1>Target "PreBuildEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PreBuildEvent" in project "dyanmic.vcxproj".
+       Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+       Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+       Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+       Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+     1>Target "_Xsd" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "_Xsd" in project "dyanmic.vcxproj".
+     1>Target "MakeDirsForMidl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Midl" depends on it):
+       Task "Makedir"
+       Done executing task "Makedir".
+     1>Done building target "MakeDirsForMidl" in project "dyanmic.vcxproj".
+       Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+       Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+       Target "FxExport" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+       Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+     1>Target "ComputeMIDLGeneratedCompileInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Midl" depends on it):
+     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "dyanmic.vcxproj".
+     1>Target "AfterMidl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Midl" depends on it):
+     1>Done building target "AfterMidl" in project "dyanmic.vcxproj".
+     1>Target "_Midl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "_Midl" in project "dyanmic.vcxproj".
+     1>Target "AfterBuildGenerateSources" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.BuildSteps.Targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "AfterBuildGenerateSources" in project "dyanmic.vcxproj".
+     1>Target "AfterBuildGenerateSourcesEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+     1>Done building target "AfterBuildGenerateSourcesEvent" in project "dyanmic.vcxproj".
+     1>Target "_BuildGenerateSourcesAction" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildGenerateSources" depends on it):
+     1>Done building target "_BuildGenerateSourcesAction" in project "dyanmic.vcxproj".
+     1>Target "BuildGenerateSources" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildGenerateSources" in project "dyanmic.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildCompileTraverse" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildCompile" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Done building target "BuildCompileTraverse" in project "dyanmic.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "BeforeClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "BeforeClCompile" in project "dyanmic.vcxproj".
+     1>Target "CheckNativeAPILevel" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Tegra-Android\Nvidia.Build.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_ClCompile" depends on it):
+       Task "Warning" skipped, due to false condition; ('$(AndroidNativeAPI)' != '$(AndroidMinAPI)') was evaluated as ('android-19' != 'android-19').
+       Task "Error" skipped, due to false condition; (!exists('$(NdkPlatformRoot)')) was evaluated as (!exists('I:\NVPACK\android-ndk-r14b\platforms\android-19')).
+     1>Done building target "CheckNativeAPILevel" in project "dyanmic.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+     1>Target "ComputeCLInputPDBName" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "ComputeCLInputPDBName" in project "dyanmic.vcxproj".
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ComputeReferenceCLInput" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_ClCompile" depends on it):
+       Task "WriteLinesToFile" skipped, due to false condition; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') was evaluated as ((''!='') and '' != 'true').
+       Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+     1>Done building target "ComputeReferenceCLInput" in project "dyanmic.vcxproj".
+     1>Target "WarnCompileDuplicatedFilename" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_ClCompile" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') was evaluated as ('' != 'true' and 'dyanmic.cpp' != 'dyanmic.cpp' and 'Tegra-Android\Debug\dyanmic.o' == 'Tegra-Android\Debug\dyanmic.o').
+     1>Done building target "WarnCompileDuplicatedFilename" in project "dyanmic.vcxproj".
+     1>Target "FixupCLCompileOptions" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "FixupCLCompileOptions" in project "dyanmic.vcxproj".
+     1>Target "MakeDirsForCl" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_ClCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForCl" in project "dyanmic.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+       Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') was evaluated as ('' != '' and '' != 'true').
+     1>Target "_SelectedFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "SelectClCompile" depends on it):
+     1>Done building target "_SelectedFiles" in project "dyanmic.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+       Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+       Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+       Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
+       Target "FixupCLCompileOptions" skipped. Previously built successfully.
+       Target "_SelectedFiles" skipped. Previously built successfully.
+     1>Target "SelectCustomBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "SelectClCompile" depends on it):
+     1>Done building target "SelectCustomBuild" in project "dyanmic.vcxproj".
+     1>Target "SelectClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ClCompile" depends on it):
+     1>Done building target "SelectClCompile" in project "dyanmic.vcxproj".
+     1>Target "_MicrosoftBuildCppTasksLoader" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Tegra-Common\Microsoft.Build.CppTasks.Loader.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ClCompile" depends on it):
+       Task "SetEnv"
+         DummyCppTasksLoaderVariable=CppTasksLoaderExecuted
+       Done executing task "SetEnv".
+     1>Done building target "_MicrosoftBuildCppTasksLoader" in project "dyanmic.vcxproj".
+       Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+       Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('dyanmic.cpp' != '' and 'false' == 'True').
+     1>Target "ClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Tegra-Common\Nvidia.Build.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_ClCompile" depends on it):
+       Task "NativeCompile" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)' != 'true' and '@(ClCompile)' != '') was evaluated as ('NotUsing' == 'Create' and '' != 'true' and 'dyanmic.cpp' != '').
+       Using "NativeCompile" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\\Platforms\Tegra-Common\Nvidia.PentaK.Build.Tasks.dll".
+       Task "NativeCompile"
+         Forcing rebuild of all source files due to missing command tlog "I:\git\ABI_study\static_vs_dynamic\dyanmic\Tegra-Android\Debug\dyanmic.tlog\clang++.compile.command.1.tlog".
+         I:\NVPACK\android-ndk-r14b\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe 
+         dyanmic.cpp
+       Done executing task "NativeCompile".
+     1>Done building target "ClCompile" in project "dyanmic.vcxproj".
+       Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('dyanmic.cpp' != '' and 'false' == 'True').
+     1>Target "AfterClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_ClCompile" depends on it):
+     1>Done building target "AfterClCompile" in project "dyanmic.vcxproj".
+     1>Target "_ClCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "_ClCompile" in project "dyanmic.vcxproj".
+       Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+     1>Target "BeforeResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_ResourceCompile" depends on it):
+     1>Done building target "BeforeResourceCompile" in project "dyanmic.vcxproj".
+     1>Target "MakeDirsForResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_ResourceCompile" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForResourceCompile" in project "dyanmic.vcxproj".
+       Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+     1>Target "AfterResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_ResourceCompile" depends on it):
+     1>Done building target "AfterResourceCompile" in project "dyanmic.vcxproj".
+     1>Target "_ResourceCompile" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "_ResourceCompile" in project "dyanmic.vcxproj".
+       Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+       Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+     1>Target "AfterBuildCompileEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_BuildCompileAction" depends on it):
+     1>Done building target "AfterBuildCompileEvent" in project "dyanmic.vcxproj".
+     1>Target "_BuildCompileAction" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildCompile" depends on it):
+     1>Done building target "_BuildCompileAction" in project "dyanmic.vcxproj".
+     1>Target "BuildCompile" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildCompile" in project "dyanmic.vcxproj".
+       Target "AssignProjectConfiguration" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "BuildLinkTraverse" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+     1>Done building target "BuildLinkTraverse" in project "dyanmic.vcxproj".
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ComputeLegacyManifestEmbedding" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') was evaluated as ('true' == 'true' and '' == 'true').
+     1>Done building target "ComputeLegacyManifestEmbedding" in project "dyanmic.vcxproj".
+     1>Target "BeforeLink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+     1>Done building target "BeforeLink" in project "dyanmic.vcxproj".
+     1>Target "ComputeRCOutputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+     1>Done building target "ComputeRCOutputs" in project "dyanmic.vcxproj".
+     1>Target "ComputeRCGeneratedLinkInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeRCGeneratedLinkInputs" in project "dyanmic.vcxproj".
+     1>Target "ComputeManifestGeneratedLinkerInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "dyanmic.vcxproj".
+     1>Target "ComputeCustomBuildOutput" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+       Task "CreateItem" skipped, due to false condition; ('%(CustomBuildDirsToMake.OutputFileToTool)'!='') was evaluated as (''!='').
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "ComputeCustomBuildOutput" in project "dyanmic.vcxproj".
+       Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+       Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+       Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+       Target "WarnCompileDuplicatedFilename" skipped. Previously built successfully.
+       Target "FixupCLCompileOptions" skipped. Previously built successfully.
+     1>Target "ComputeCLOutputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Tegra-Common\Nvidia.Build.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+     1>Done building target "ComputeCLOutputs" in project "dyanmic.vcxproj".
+     1>Target "ComputeCLGeneratedLinkInputs" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeCLGeneratedLinkInputs" in project "dyanmic.vcxproj".
+     1>Target "ComputeLinkInputsFromProject" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeLinkInputsFromProject" in project "dyanmic.vcxproj".
+       Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+     1>Target "ComputeManifestInputsTargets" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+     1>Done building target "ComputeManifestInputsTargets" in project "dyanmic.vcxproj".
+       Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('' == 'LINK' and '' != '').
+       Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+     1>Target "AssignTargetPaths" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "PrepareResourceNames" depends on it):
+       Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+       Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+     1>Done building target "AssignTargetPaths" in project "dyanmic.vcxproj".
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+     1>Target "SplitResourcesByCulture" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "PrepareResourceNames" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+       Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+       Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "AssignCulture"
+       Done executing task "AssignCulture".
+     1>Done building target "SplitResourcesByCulture" in project "dyanmic.vcxproj".
+       Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+     1>Target "CreateCustomManifestResourceNames" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "PrepareResourceNames" depends on it):
+     1>Done building target "CreateCustomManifestResourceNames" in project "dyanmic.vcxproj".
+     1>Target "PrepareResourceNames" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+     1>Done building target "PrepareResourceNames" in project "dyanmic.vcxproj".
+     1>Target "MakeDirsForLink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForLink" in project "dyanmic.vcxproj".
+     1>Target "DoLinkOutputFilesMatch" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\libdyanmic.so' == '').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\libdyanmic.so' != '' and 'I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\libdyanmic.so' != 'I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\libdyanmic.so').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\libdyanmic.so' != '' and '.so' != '' and '.so' != '.so').
+       Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\libdyanmic.so' != '' and 'libdyanmic' != '' and 'libdyanmic' != 'libdyanmic').
+       Task "VCMessage" skipped, due to false condition; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) was evaluated as ('' != '' and ('' == '' or '' == 'NotSet')).
+     1>Done building target "DoLinkOutputFilesMatch" in project "dyanmic.vcxproj".
+     1>Target "PreLinkEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PreLinkEvent" in project "dyanmic.vcxproj".
+       Target "GetReferencedLibraries" skipped, due to false condition; ('@(ProjectReference)' != '') was evaluated as ('' != '').
+       Target "_MicrosoftBuildCppTasksLoader" skipped. Previously built successfully.
+     1>Target "Link" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Tegra-Common\Nvidia.Build.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+       Using "NativeLink" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\\Platforms\Tegra-Common\Nvidia.PentaK.Build.Tasks.dll".
+       Task "NativeLink"
+         Forcing rebuild of all source files due to missing command tlog "I:\git\ABI_study\static_vs_dynamic\dyanmic\Tegra-Android\Debug\dyanmic.tlog\clang++-link.command.1.tlog".
+         I:\NVPACK\android-ndk-r14b\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe Tegra-Android/Debug/dyanmic.o  -gcc-toolchain I:/NVPACK/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -target armv7-none-linux-androideabi -Wl,-soname,libdyanmic.so -shared --sysroot=I:/NVPACK/android-ndk-r14b/platforms/android-19/arch-arm -fuse-ld=bfd.exe -Wl,-rpath-link="I:/NVPACK/android-ndk-r14b/platforms/android-19/arch-arm/usr/lib" -Wl,--no-undefined -Wl,--no-allow-shlib-undefined -Wl,--unresolved-symbols=report-all -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -L"I:/NVPACK/android-ndk-r14b/platforms/android-19/arch-arm/usr/lib" -L"I:/NVPACK/android-ndk-r14b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a" "I:/NVPACK/android-ndk-r14b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_shared.so" "I:/NVPACK/android-ndk-r14b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a" "I:/NVPACK/android-ndk-r14b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a" -lc -lm -llog -lgcc -oI:/git/ABI_study/static_vs_dynamic/Tegra-Android/Debug/libdyanmic.so 
+         Tracking command:
+         C:\Program Files (x86)\MSBuild\14.0\bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\14.0\bin\FileTracker32.dll" /i I:\git\ABI_study\static_vs_dynamic\dyanmic\Tegra-Android\Debug\dyanmic.tlog /r I:\GIT\ABI_STUDY\STATIC_VS_DYNAMIC\DYANMIC\TEGRA-ANDROID\DEBUG\DYANMIC.O /b MSBuildConsole_CancelEvent72436a3e55ad4d619dbc63d2051c7492  /c I:\NVPACK\android-ndk-r14b\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe  Tegra-Android/Debug/dyanmic.o  -gcc-toolchain I:/NVPACK/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 -target armv7-none-linux-androideabi -Wl,-soname,libdyanmic.so -shared --sysroot=I:/NVPACK/android-ndk-r14b/platforms/android-19/arch-arm -fuse-ld=bfd.exe -Wl,-rpath-link="I:/NVPACK/android-ndk-r14b/platforms/android-19/arch-arm/usr/lib" -Wl,--no-undefined -Wl,--no-allow-shlib-undefined -Wl,--unresolved-symbols=report-all -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -L"I:/NVPACK/android-ndk-r14b/platforms/android-19/arch-arm/usr/lib" -L"I:/NVPACK/android-ndk-r14b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a" "I:/NVPACK/android-ndk-r14b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libc++_shared.so" "I:/NVPACK/android-ndk-r14b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libandroid_support.a" "I:/NVPACK/android-ndk-r14b/sources/cxx-stl/llvm-libc++/libs/armeabi-v7a/libunwind.a" -lc -lm -llog -lgcc -oI:/git/ABI_study/static_vs_dynamic/Tegra-Android/Debug/libdyanmic.so 
+       Done executing task "NativeLink".
+       Task "Message"
+         dyanmic.vcxproj -> I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\libdyanmic.so
+       Done executing task "Message".
+     1>Done building target "Link" in project "dyanmic.vcxproj".
+       Target "MetaGenInputsOutputs" skipped, due to false condition; ('$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('false' == 'True').
+       Target "ComputeMetaGenInputs" skipped, due to false condition; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') was evaluated as ('false'!='' and 'false'!='false').
+       Target "MetaGen" skipped, due to false condition; ('@(MetaGen)' != '') was evaluated as ('' != '').
+     1>Target "ComputeLinkImportLibraryOutputsForClean" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+       Task "WriteLinesToFile" skipped, due to false condition; ('@(_LinkSecondaryOutput)' != '') was evaluated as ('' != '').
+     1>Done building target "ComputeLinkImportLibraryOutputsForClean" in project "dyanmic.vcxproj".
+     1>Target "AfterLink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_Link" depends on it):
+     1>Done building target "AfterLink" in project "dyanmic.vcxproj".
+     1>Target "_Link" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "_Link" in project "dyanmic.vcxproj".
+     1>Target "_ALink" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "_ALink" in project "dyanmic.vcxproj".
+       Target "ComputeLegacyManifestEmbedding" skipped. Previously built successfully.
+     1>Target "_Manifest" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+       Using "CallTarget" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "CallTarget"
+       Done executing task "CallTarget".
+     1>Done building target "_Manifest" in project "dyanmic.vcxproj".
+       Target "RegisterOutput" skipped, due to false condition; ('$(LinkSkippedExecution)' != 'true' and (('$(Platform)' == 'x64' and ('$(PROCESSOR_ARCHITECTURE)' == 'AMD64' or '$(PROCESSOR_ARCHITEW6432)' == 'AMD64')) or '$(Platform)' == 'Win32')) was evaluated as ('False' != 'true' and (('Tegra-Android' == 'x64' and ('x86' == 'AMD64' or 'AMD64' == 'AMD64')) or 'Tegra-Android' == 'Win32')).
+       Target "PrepareForBuild" skipped. Previously built successfully.
+       Target "ResolveReferences" skipped. Previously built successfully.
+     1>Target "ResolvedXDCMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_XdcMake" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+     1>Done building target "ResolvedXDCMake" in project "dyanmic.vcxproj".
+     1>Target "ComputeCLCompileGeneratedXDCFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_XdcMake" depends on it):
+     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "dyanmic.vcxproj".
+     1>Target "MakeDirsForXdcMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_XdcMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForXdcMake" in project "dyanmic.vcxproj".
+       Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+     1>Target "_XdcMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "_XdcMake" in project "dyanmic.vcxproj".
+     1>Target "ComputeCLCompileGeneratedSbrFiles" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_BscMake" depends on it):
+     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "dyanmic.vcxproj".
+     1>Target "MakeDirsForBscMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_BscMake" depends on it):
+       Task "MakeDir"
+       Done executing task "MakeDir".
+     1>Done building target "MakeDirsForBscMake" in project "dyanmic.vcxproj".
+       Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+     1>Target "_BscMake" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "_BscMake" in project "dyanmic.vcxproj".
+       Target "_MicrosoftBuildCppTasksLoader" skipped. Previously built successfully.
+     1>Target "StripLibrary" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Tegra-Android\Nvidia.AndroidBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+       Using "NativeStrip" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\\Platforms\Tegra-Common\Nvidia.PentaK.Build.Tasks.dll".
+       Task "NativeStrip"
+         I:\NVPACK\android-ndk-r14b\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-strip.exe --strip-unneeded -o"I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\stripped_libdyanmic.so" "I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\libdyanmic.so"
+         Stripping I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\libdyanmic.so to I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\stripped_libdyanmic.so
+       Done executing task "NativeStrip".
+       Using "AddDebugLinkTask" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\\Platforms\Tegra-Common\Nvidia.PentaK.Build.Tasks.dll".
+       Task "AddDebugLinkTask"
+         I:\NVPACK\android-ndk-r14b\toolchains\arm-linux-androideabi-4.9\prebuilt\windows-x86_64\bin\arm-linux-androideabi-objcopy.exe --add-gnu-debuglink="I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\libdyanmic.so" "I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\stripped_libdyanmic.so"
+         Adding debuglink I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\libdyanmic.so to I:\git\ABI_study\static_vs_dynamic\Tegra-Android\Debug\stripped_libdyanmic.so
+       Done executing task "AddDebugLinkTask".
+     1>Done building target "StripLibrary" in project "dyanmic.vcxproj".
+     1>Target "_AddAntBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Platforms\Tegra-Android\Nvidia.Build.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "_AddAntBuild" in project "dyanmic.vcxproj".
+       Target "RunMergeNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
+       Target "RunNativeCodeAnalysis" skipped, due to false condition; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') was evaluated as ('C++'=='C++' and ''=='true').
+     1>Target "_GenerateSatelliteAssemblyInputs" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+       Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+       Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "dyanmic.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+     1>Target "CreateSatelliteAssemblies" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "CreateSatelliteAssemblies" in project "dyanmic.vcxproj".
+     1>Target "_Appverifier" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "_Appverifier" in project "dyanmic.vcxproj".
+     1>Target "_Deploy" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "_Deploy" in project "dyanmic.vcxproj".
+       Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+       Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+       Target "AssignTargetPaths" skipped. Previously built successfully.
+       Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+     1>Target "GetCopyToOutputDirectoryXamlAppDefs" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "dyanmic.vcxproj".
+     1>Target "GetCopyToOutputDirectoryItems" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+       Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+       Task "AssignTargetPath"
+       Done executing task "AssignTargetPath".
+     1>Done building target "GetCopyToOutputDirectoryItems" in project "dyanmic.vcxproj".
+       Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+     1>Target "_CopySourceItemsToOutputDirectory" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+     1>Done building target "_CopySourceItemsToOutputDirectory" in project "dyanmic.vcxproj".
+       Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+       Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+     1>Target "_CheckForCompileOutputs" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+     1>Done building target "_CheckForCompileOutputs" in project "dyanmic.vcxproj".
+       Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+     1>Target "CopyFilesToOutputDirectory" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "PrepareForRun" depends on it):
+       Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+       Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+       Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+       Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+       Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+       Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+       Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+       Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+       Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+     1>Done building target "CopyFilesToOutputDirectory" in project "dyanmic.vcxproj".
+     1>Target "PrepareForRun" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+     1>Done building target "PrepareForRun" in project "dyanmic.vcxproj".
+       Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+     1>Target "PostBuildEvent" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "BuildLink" depends on it):
+       Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+       Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+     1>Done building target "PostBuildEvent" in project "dyanmic.vcxproj".
+     1>Target "BuildLink" in file "C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "Build" depends on it):
+     1>Done building target "BuildLink" in project "dyanmic.vcxproj".
+       Target "CreateTfsBuildInfoResource" skipped, due to false condition; ( $(AddBuildInfoToAssembly)==true ) was evaluated as ( false==true ).
+     1>Target "AfterBuild" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.BuildSteps.Targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "Build" depends on it):
+     1>Done building target "AfterBuild" in project "dyanmic.vcxproj".
+     1>Target "FinalizeBuildStatus" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (target "Build" depends on it):
+       Using "Delete" task from assembly "Microsoft.Build.Tasks.Core, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+       Task "Delete"
+         Deleting file "Tegra-Android\Debug\dyanmic.tlog\unsuccessfulbuild".
+       Done executing task "Delete".
+       Task "Touch"
+         Touching "Tegra-Android\Debug\dyanmic.tlog\dyanmic.lastbuildstate".
+       Done executing task "Touch".
+     1>Done building target "FinalizeBuildStatus" in project "dyanmic.vcxproj".
+     1>Target "Build" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.BuildSteps.Targets" from project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (entry point):
+     1>Done building target "Build" in project "dyanmic.vcxproj".
+     1>Done Building Project "I:\git\ABI_study\static_vs_dynamic\dyanmic\dyanmic.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.79
