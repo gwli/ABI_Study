@@ -1,0 +1,165 @@
+
+File: libstaticLib.a(staticLib.o)
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              REL (Relocatable file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x0
+  Start of program headers:          0 (bytes into file)
+  Start of section headers:          1932 (bytes into file)
+  Flags:                             0x5000000, Version5 EABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           0 (bytes)
+  Number of program headers:         0
+  Size of section headers:           40 (bytes)
+  Number of section headers:         24
+  Section header string table index: 1
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .strtab           STRTAB          00000000 000628 000162 00      0   0  1
+  [ 2] .text             PROGBITS        00000000 000034 000014 00  AX  0   0  4
+  [ 3] .ARM.exidx        ARM_EXIDX       00000000 000048 000008 00  AL  2   0  4
+  [ 4] .rel.ARM.exidx    REL             00000000 000580 000010 08     23   3  4
+  [ 5] .debug_str        PROGBITS        00000000 000050 0000b7 01  MS  0   0  1
+  [ 6] .debug_loc        PROGBITS        00000000 000107 000000 00      0   0  1
+  [ 7] .debug_abbrev     PROGBITS        00000000 000107 000062 00      0   0  1
+  [ 8] .debug_info       PROGBITS        00000000 000169 000083 00      0   0  1
+  [ 9] .rel.debug_info   REL             00000000 000590 000070 08     23   8  4
+  [10] .debug_ranges     PROGBITS        00000000 0001ec 000000 00      0   0  1
+  [11] .debug_macinfo    PROGBITS        00000000 0001ec 000001 00      0   0  1
+  [12] .debug_pubnames   PROGBITS        00000000 0001ed 00002c 00      0   0  1
+  [13] .rel.debug_pubnam REL             00000000 000600 000008 08     23  12  4
+  [14] .debug_pubtypes   PROGBITS        00000000 000219 000036 00      0   0  1
+  [15] .rel.debug_pubtyp REL             00000000 000608 000008 08     23  14  4
+  [16] .comment          PROGBITS        00000000 00024f 00003e 01  MS  0   0  1
+  [17] .note.GNU-stack   PROGBITS        00000000 00028d 000000 00      0   0  1
+  [18] .ARM.attributes   ARM_ATTRIBUTES  00000000 00028d 000049 00      0   0  1
+  [19] .debug_frame      PROGBITS        00000000 0002d8 000028 00      0   0  4
+  [20] .rel.debug_frame  REL             00000000 000610 000010 08     23  19  4
+  [21] .debug_line       PROGBITS        00000000 000300 00008f 00      0   0  1
+  [22] .rel.debug_line   REL             00000000 000620 000008 08     23  21  4
+  [23] .symtab           SYMTAB          00000000 000390 0001f0 10      1  29  4
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings)
+  I (info), L (link order), G (group), T (TLS), E (exclude), x (unknown)
+  O (extra OS processing required) o (OS specific), p (processor specific)
+
+There are no section groups in this file.
+
+There are no program headers in this file.
+
+Relocation section '.rel.ARM.exidx' at offset 0x580 contains 2 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+00000000  00001e00 R_ARM_NONE        00000000   __aeabi_unwind_cpp_pr0
+00000000  0000182a R_ARM_PREL31      00000000   .text
+
+Relocation section '.rel.debug_info' at offset 0x590 contains 14 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+00000006  00001902 R_ARM_ABS32       00000000   .debug_abbrev
+0000000c  00000502 R_ARM_ABS32       00000000   
+00000012  00000702 R_ARM_ABS32       0000003d   
+00000016  00001c02 R_ARM_ABS32       00000000   .debug_line
+0000001a  00000802 R_ARM_ABS32       0000004b   
+0000001e  00001802 R_ARM_ABS32       00000000   .text
+00000027  00001802 R_ARM_ABS32       00000000   .text
+00000031  00000902 R_ARM_ABS32       00000078   
+0000003b  00000a02 R_ARM_ABS32       0000008e   
+00000049  00000302 R_ARM_ABS32       000000a1   
+0000005e  00000402 R_ARM_ABS32       0000009a   
+00000065  00000602 R_ARM_ABS32       00000092   
+0000006f  00000202 R_ARM_ABS32       000000af   
+0000007b  00000b02 R_ARM_ABS32       000000a6   
+
+Relocation section '.rel.debug_pubnames' at offset 0x600 contains 1 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+00000006  00001a02 R_ARM_ABS32       00000000   .debug_info
+
+Relocation section '.rel.debug_pubtypes' at offset 0x608 contains 1 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+00000006  00001a02 R_ARM_ABS32       00000000   .debug_info
+
+Relocation section '.rel.debug_frame' at offset 0x610 contains 2 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+00000018  00001b02 R_ARM_ABS32       00000000   .debug_frame
+0000001c  00001802 R_ARM_ABS32       00000000   .text
+
+Relocation section '.rel.debug_line' at offset 0x620 contains 1 entries:
+ Offset     Info    Type            Sym.Value  Sym. Name
+0000007f  00001802 R_ARM_ABS32       00000000   .text
+
+Unwind table index '.ARM.exidx' at offset 0x48 contains 1 entries:
+
+0x0: 0x8001b0b0
+  Compact model index: 0
+  0x01      vsp = vsp + 8
+  0xb0      finish
+  0xb0      finish
+
+
+Symbol table '.symtab' contains 31 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00000000     0 FILE    LOCAL  DEFAULT  ABS staticLib.cpp
+     2: 000000af     0 NOTYPE  LOCAL  DEFAULT    5 
+     3: 000000a1     0 NOTYPE  LOCAL  DEFAULT    5 
+     4: 0000009a     0 NOTYPE  LOCAL  DEFAULT    5 
+     5: 00000000     0 NOTYPE  LOCAL  DEFAULT    5 
+     6: 00000092     0 NOTYPE  LOCAL  DEFAULT    5 
+     7: 0000003d     0 NOTYPE  LOCAL  DEFAULT    5 
+     8: 0000004b     0 NOTYPE  LOCAL  DEFAULT    5 
+     9: 00000078     0 NOTYPE  LOCAL  DEFAULT    5 
+    10: 0000008e     0 NOTYPE  LOCAL  DEFAULT    5 
+    11: 000000a6     0 NOTYPE  LOCAL  DEFAULT    5 
+    12: 00000000     0 NOTYPE  LOCAL  DEFAULT    2 $a.0
+    13: 00000000     0 NOTYPE  LOCAL  DEFAULT    3 $d.1
+    14: 00000000     0 NOTYPE  LOCAL  DEFAULT   19 $d.10
+    15: 00000000     0 NOTYPE  LOCAL  DEFAULT   21 $d.11
+    16: 00000000     0 NOTYPE  LOCAL  DEFAULT    5 $d.2
+    17: 00000000     0 NOTYPE  LOCAL  DEFAULT    7 $d.3
+    18: 00000000     0 NOTYPE  LOCAL  DEFAULT    8 $d.4
+    19: 00000000     0 NOTYPE  LOCAL  DEFAULT   11 $d.5
+    20: 00000000     0 NOTYPE  LOCAL  DEFAULT   12 $d.6
+    21: 00000000     0 NOTYPE  LOCAL  DEFAULT   14 $d.7
+    22: 00000000     0 NOTYPE  LOCAL  DEFAULT   16 $d.8
+    23: 00000000     0 NOTYPE  LOCAL  DEFAULT   18 $d.9
+    24: 00000000     0 SECTION LOCAL  DEFAULT    2 
+    25: 00000000     0 SECTION LOCAL  DEFAULT    7 
+    26: 00000000     0 SECTION LOCAL  DEFAULT    8 
+    27: 00000000     0 SECTION LOCAL  DEFAULT   19 
+    28: 00000000     0 SECTION LOCAL  DEFAULT   21 
+    29: 00000000    20 FUNC    GLOBAL DEFAULT    2 Java_staticLib_Native
+    30: 00000000     0 NOTYPE  GLOBAL DEFAULT  UND __aeabi_unwind_cpp_pr0
+
+No version information found in this file.
+Attribute Section: aeabi
+File Attributes
+  Tag_conformance: "2.09"
+  Tag_CPU_name: "cortex-a8"
+  Tag_CPU_arch: v7
+  Tag_CPU_arch_profile: Application
+  Tag_ARM_ISA_use: Yes
+  Tag_THUMB_ISA_use: Thumb-2
+  Tag_FP_arch: VFPv3
+  Tag_Advanced_SIMD_arch: NEONv1
+  Tag_ABI_PCS_R9_use: V6
+  Tag_ABI_PCS_RW_data: PC-relative
+  Tag_ABI_PCS_RO_data: PC-relative
+  Tag_ABI_PCS_GOT_use: GOT-indirect
+  Tag_ABI_PCS_wchar_t: 4
+  Tag_ABI_FP_denormal: Needed
+  Tag_ABI_FP_exceptions: Needed
+  Tag_ABI_FP_number_model: IEEE 754
+  Tag_ABI_align_needed: 8-byte
+  Tag_ABI_align_preserved: 8-byte, except leaf SP
+  Tag_ABI_enum_size: int
+  Tag_CPU_unaligned_access: v6
+  Tag_ABI_FP_16bit_format: IEEE 754
+  Tag_Virtualization_use: TrustZone
