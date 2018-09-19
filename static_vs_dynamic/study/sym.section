@@ -1,0 +1,9 @@
+libdyanmic.so.readelf-a:  [ 2] .dynsym           DYNSYM          00000268 000268 000360 10   A  3   3  4
+libdyanmic.so.readelf-a:  [33] .symtab           SYMTAB          00000000 0205b0 001510 10     34 286  4
+libdyanmic.so.readelf-a:   01     .hash .dynsym .dynstr .gnu.version .gnu.version_r .rel.dyn .rel.plt .plt .text .rodata .ARM.extab .ARM.exidx 
+libdyanmic.so.readelf-a:Symbol table '.dynsym' contains 54 entries:
+libdyanmic.so.readelf-a:Symbol table '.symtab' contains 337 entries:
+libdyanmic.so.readelf-a:Version symbols section '.gnu.version' contains 54 entries:
+libdyanmic.so.readelf-a: Addr: 000000000000091e  Offset: 0x00091e  Link: 2 (.dynsym)
+libstaticLib.a.readelf-a:  [23] .symtab           SYMTAB          00000000 000390 0001f0 10      1  29  4
+libstaticLib.a.readelf-a:Symbol table '.symtab' contains 31 entries:

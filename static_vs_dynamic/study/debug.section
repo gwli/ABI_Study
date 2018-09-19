@@ -1,0 +1,35 @@
+libdyanmic.so.readelf-a:  [22] .debug_pubnames   PROGBITS        00000000 0110a9 0013f8 00      0   0  1
+libdyanmic.so.readelf-a:  [23] .debug_info       PROGBITS        00000000 0124a1 005077 00      0   0  1
+libdyanmic.so.readelf-a:  [24] .debug_abbrev     PROGBITS        00000000 017518 0009a2 00      0   0  1
+libdyanmic.so.readelf-a:  [25] .debug_line       PROGBITS        00000000 017eba 001889 00      0   0  1
+libdyanmic.so.readelf-a:  [26] .debug_frame      PROGBITS        00000000 019744 0005ec 00      0   0  4
+libdyanmic.so.readelf-a:  [27] .debug_str        PROGBITS        00000000 019d30 003ad6 01  MS  0   0  1
+libdyanmic.so.readelf-a:  [28] .debug_loc        PROGBITS        00000000 01d806 001c7d 00      0   0  1
+libdyanmic.so.readelf-a:  [29] .debug_macinfo    PROGBITS        00000000 01f483 000003 00      0   0  1
+libdyanmic.so.readelf-a:  [30] .debug_pubtypes   PROGBITS        00000000 01f486 000a5f 00      0   0  1
+libdyanmic.so.readelf-a:  [31] .debug_ranges     PROGBITS        00000000 01fee5 000568 00      0   0  1
+libstaticLib.a.readelf-a:  [ 5] .debug_str        PROGBITS        00000000 000050 0000b7 01  MS  0   0  1
+libstaticLib.a.readelf-a:  [ 6] .debug_loc        PROGBITS        00000000 000107 000000 00      0   0  1
+libstaticLib.a.readelf-a:  [ 7] .debug_abbrev     PROGBITS        00000000 000107 000062 00      0   0  1
+libstaticLib.a.readelf-a:  [ 8] .debug_info       PROGBITS        00000000 000169 000083 00      0   0  1
+libstaticLib.a.readelf-a:  [ 9] .rel.debug_info   REL             00000000 000590 000070 08     23   8  4
+libstaticLib.a.readelf-a:  [10] .debug_ranges     PROGBITS        00000000 0001ec 000000 00      0   0  1
+libstaticLib.a.readelf-a:  [11] .debug_macinfo    PROGBITS        00000000 0001ec 000001 00      0   0  1
+libstaticLib.a.readelf-a:  [12] .debug_pubnames   PROGBITS        00000000 0001ed 00002c 00      0   0  1
+libstaticLib.a.readelf-a:  [13] .rel.debug_pubnam REL             00000000 000600 000008 08     23  12  4
+libstaticLib.a.readelf-a:  [14] .debug_pubtypes   PROGBITS        00000000 000219 000036 00      0   0  1
+libstaticLib.a.readelf-a:  [15] .rel.debug_pubtyp REL             00000000 000608 000008 08     23  14  4
+libstaticLib.a.readelf-a:  [19] .debug_frame      PROGBITS        00000000 0002d8 000028 00      0   0  4
+libstaticLib.a.readelf-a:  [20] .rel.debug_frame  REL             00000000 000610 000010 08     23  19  4
+libstaticLib.a.readelf-a:  [21] .debug_line       PROGBITS        00000000 000300 00008f 00      0   0  1
+libstaticLib.a.readelf-a:  [22] .rel.debug_line   REL             00000000 000620 000008 08     23  21  4
+libstaticLib.a.readelf-a:Relocation section '.rel.debug_info' at offset 0x590 contains 14 entries:
+libstaticLib.a.readelf-a:00000006  00001902 R_ARM_ABS32       00000000   .debug_abbrev
+libstaticLib.a.readelf-a:00000016  00001c02 R_ARM_ABS32       00000000   .debug_line
+libstaticLib.a.readelf-a:Relocation section '.rel.debug_pubnames' at offset 0x600 contains 1 entries:
+libstaticLib.a.readelf-a:00000006  00001a02 R_ARM_ABS32       00000000   .debug_info
+libstaticLib.a.readelf-a:Relocation section '.rel.debug_pubtypes' at offset 0x608 contains 1 entries:
+libstaticLib.a.readelf-a:00000006  00001a02 R_ARM_ABS32       00000000   .debug_info
+libstaticLib.a.readelf-a:Relocation section '.rel.debug_frame' at offset 0x610 contains 2 entries:
+libstaticLib.a.readelf-a:00000018  00001b02 R_ARM_ABS32       00000000   .debug_frame
+libstaticLib.a.readelf-a:Relocation section '.rel.debug_line' at offset 0x620 contains 1 entries:
