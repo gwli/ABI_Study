@@ -1,3 +1,7 @@
+##################################################
+# app from call lib:  3.5576G-3.1494G=417.99M
+# in the libart.so    3.5576G-3.5537G =3.9936M 
+##################################################
 0XC9962D48: 3.1494G :Java_aa_bb_cc_JNICallStudy_stringFromJNI(JNIEnv * env, jobject thiz) Line 15
 0XE3B1AA7A: 3.5576G :libart.so!art_quick_generic_jni_trampoline()
 0XE3B16576: 3.5576G :libart.so!art_quick_invoke_stub_internal()

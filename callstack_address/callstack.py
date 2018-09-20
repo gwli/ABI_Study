@@ -95,7 +95,7 @@ def cal_address():
     ]  
     
     for (addr,caller) in addr_list:
-        print("{}:{:>7.4f}G :{}".format(addr,addr/1024/1024/1024.0,caller))
+        print("{}:{:>7.4f}G :{}".format(hex(addr).upper(),addr/1024/1024/1024.0,caller))
 
 if __name__ == "__main__":
    # main()
