@@ -1,0 +1,5 @@
+	.text
+	.file	"list.c"
+
+	.ident	"clang version 3.8.0-2ubuntu4 (tags/RELEASE_380/final)"
+	.section	".note.GNU-stack","",@progbits
