@@ -1,0 +1,47 @@
+00400000-004f4000 r-xp 00000000 fd:00 30932999                           /bin/bash
+006f3000-006f4000 r--p 000f3000 fd:00 30932999                           /bin/bash
+006f4000-006fd000 rw-p 000f4000 fd:00 30932999                           /bin/bash
+006fd000-00703000 rw-p 00000000 00:00 0 
+0252b000-026f6000 rw-p 00000000 00:00 0                                  [heap]
+7f2529bb3000-7f2529bbe000 r-xp 00000000 fd:00 31064353                   /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f2529bbe000-7f2529dbd000 ---p 0000b000 fd:00 31064353                   /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f2529dbd000-7f2529dbe000 r--p 0000a000 fd:00 31064353                   /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f2529dbe000-7f2529dbf000 rw-p 0000b000 fd:00 31064353                   /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f2529dbf000-7f2529dc5000 rw-p 00000000 00:00 0 
+7f2529dc5000-7f2529dd0000 r-xp 00000000 fd:00 31064368                   /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f2529dd0000-7f2529fcf000 ---p 0000b000 fd:00 31064368                   /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f2529fcf000-7f2529fd0000 r--p 0000a000 fd:00 31064368                   /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f2529fd0000-7f2529fd1000 rw-p 0000b000 fd:00 31064368                   /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f2529fd1000-7f2529fe7000 r-xp 00000000 fd:00 31064157                   /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f2529fe7000-7f252a1e6000 ---p 00016000 fd:00 31064157                   /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f252a1e6000-7f252a1e7000 r--p 00015000 fd:00 31064157                   /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f252a1e7000-7f252a1e8000 rw-p 00016000 fd:00 31064157                   /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f252a1e8000-7f252a1ea000 rw-p 00000000 00:00 0 
+7f252a1ea000-7f252a1f2000 r-xp 00000000 fd:00 31064348                   /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f252a1f2000-7f252a3f1000 ---p 00008000 fd:00 31064348                   /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f252a3f1000-7f252a3f2000 r--p 00007000 fd:00 31064348                   /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f252a3f2000-7f252a3f3000 rw-p 00008000 fd:00 31064348                   /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f252a3f3000-7f252a87d000 r--p 00000000 fd:00 15730133                   /usr/lib/locale/locale-archive
+7f252a87d000-7f252aa3d000 r-xp 00000000 fd:00 31064340                   /lib/x86_64-linux-gnu/libc-2.23.so
+7f252aa3d000-7f252ac3d000 ---p 001c0000 fd:00 31064340                   /lib/x86_64-linux-gnu/libc-2.23.so
+7f252ac3d000-7f252ac41000 r--p 001c0000 fd:00 31064340                   /lib/x86_64-linux-gnu/libc-2.23.so
+7f252ac41000-7f252ac43000 rw-p 001c4000 fd:00 31064340                   /lib/x86_64-linux-gnu/libc-2.23.so
+7f252ac43000-7f252ac47000 rw-p 00000000 00:00 0 
+7f252ac47000-7f252ac4a000 r-xp 00000000 fd:00 31064342                   /lib/x86_64-linux-gnu/libdl-2.23.so
+7f252ac4a000-7f252ae49000 ---p 00003000 fd:00 31064342                   /lib/x86_64-linux-gnu/libdl-2.23.so
+7f252ae49000-7f252ae4a000 r--p 00002000 fd:00 31064342                   /lib/x86_64-linux-gnu/libdl-2.23.so
+7f252ae4a000-7f252ae4b000 rw-p 00003000 fd:00 31064342                   /lib/x86_64-linux-gnu/libdl-2.23.so
+7f252ae4b000-7f252ae70000 r-xp 00000000 fd:00 31068774                   /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f252ae70000-7f252b06f000 ---p 00025000 fd:00 31068774                   /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f252b06f000-7f252b073000 r--p 00024000 fd:00 31068774                   /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f252b073000-7f252b074000 rw-p 00028000 fd:00 31068774                   /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f252b074000-7f252b09a000 r-xp 00000000 fd:00 31064161                   /lib/x86_64-linux-gnu/ld-2.23.so
+7f252b274000-7f252b278000 rw-p 00000000 00:00 0 
+7f252b292000-7f252b299000 r--s 00000000 fd:00 15997017                   /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7f252b299000-7f252b29a000 r--p 00025000 fd:00 31064161                   /lib/x86_64-linux-gnu/ld-2.23.so
+7f252b29a000-7f252b29b000 rw-p 00026000 fd:00 31064161                   /lib/x86_64-linux-gnu/ld-2.23.so
+7f252b29b000-7f252b29c000 rw-p 00000000 00:00 0 
+7fff28325000-7fff28346000 rw-p 00000000 00:00 0                          [stack]
+7fff283f3000-7fff283f6000 r--p 00000000 00:00 0                          [vvar]
+7fff283f6000-7fff283f8000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]

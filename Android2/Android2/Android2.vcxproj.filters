@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="res">
+      <UniqueIdentifier>d0149471-163a-4731-9dce-76f6ae8935e7</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res\values">
+      <UniqueIdentifier>de591a76-7aa9-4863-8427-efe6ec780a5d</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{c17aa12a-8d99-45be-83d4-d535c4cbf9c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dd">
+      <UniqueIdentifier>{ad168615-f603-4ad1-bb53-6154039d9e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dd\ee">
+      <UniqueIdentifier>{4a741a53-0d94-4579-b536-18bbe3c7879b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dd\ee\cc">
+      <UniqueIdentifier>{44084259-40f3-477c-83ab-1a177dbb29e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jni">
+      <UniqueIdentifier>{367e12aa-3959-4a28-aabe-e0cdb3352b34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidBuild Include="AndroidManifest.xml" />
+    <AndroidBuild Include="res\values\strings.xml">
+      <Filter>res\values</Filter>
+    </AndroidBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <JCompile Include="src\dd\ee\cc\Android2.java">
+      <Filter>src\dd\ee\cc</Filter>
+    </JCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="jni\Android2.cpp">
+      <Filter>jni</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
