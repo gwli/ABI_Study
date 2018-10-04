@@ -2,6 +2,7 @@ function! Hex2addr3(hexstr)
 	let k=1024.0
 	let m=k*1024
 	let g=m*1024
+	let t=g*1024
 	let temp =0
 	if a:hexstr <k
 	   let temp = a:hexstr*1 
@@ -12,9 +13,12 @@ function! Hex2addr3(hexstr)
 	elseif a:hexstr <g
 	   let temp=  a:hexstr/m 
 	   return  string(temp) . "M"
+	elseif a:hexstr <t
+	   let temp=  a:hexstr/g 
+	   return  string(temp) . "G"
 	else
-	   let temp= a:hexstr/g  
-	   return string(temp)  . "G"
+	   let temp= a:hexstr/t  
+	   return string(temp)  . "T"
 	endif
 
 endfunction

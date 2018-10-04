@@ -1,0 +1,422 @@
+/usr/local/bin/julia: symbolic link to /usr/local/julia-1.0.1/bin/julia
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           Advanced Micro Devices X86-64
+  Version:                           0x1
+  Entry point address:               0x40158c (4.00526M)
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          44992 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         10
+  Size of section headers:           64 (bytes)
+  Number of section headers:         36
+  Section header string table index: 35
+
+Section Headers:
+  [Nr] Name              Type            Address          Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            0000000000000000 000000 000000 00      0   0  0
+  [ 1] .interp           PROGBITS        0000000000400270 000270 00001c 00   A  0   0  1
+  [ 2] .note.ABI-tag     NOTE            000000000040028c 00028c 000020 00   A  0   0  4
+  [ 3] .hash             HASH            00000000004002b0 0002b0 000174 04   A  4   0  8
+  [ 4] .dynsym           DYNSYM          0000000000400428 000428 000510 18   A  5   1  8
+  [ 5] .dynstr           STRTAB          0000000000400938 000938 00036c 00   A  0   0  1
+  [ 6] .gnu.version      VERSYM          0000000000400ca4 000ca4 00006c 02   A  4   0  2
+  [ 7] .gnu.version_r    VERNEED         0000000000400d10 000d10 000040 00   A  5   2  8
+  [ 8] .rela.dyn         RELA            0000000000400d50 000d50 000108 18   A  4   0  8
+  [ 9] .rela.plt         RELA            0000000000400e58 000e58 0003a8 18  AI  4  22  8
+  [10] .init             PROGBITS        0000000000401200 001200 00000e 00  AX  0   0  4
+  [11] .plt              PROGBITS        0000000000401210 001210 000280 10  AX  0   0 16
+  [12] .text             PROGBITS        0000000000401490 001490 00095c 00  AX  0   0 16
+  [13] .fini             PROGBITS        0000000000401dec 001dec 000009 00  AX  0   0  4
+  [14] .rodata           PROGBITS        0000000000401e00 001e00 000195 00   A  0   0 16
+  [15] .eh_frame_hdr     PROGBITS        0000000000401f98 001f98 000054 00   A  0   0  4
+  [16] .eh_frame         PROGBITS        0000000000401ff0 001ff0 000148 00   A  0   0  8
+  [17] .tbss             NOBITS          0000000000602d60 002d60 002aa8 00 WAT  0   0  8
+  [18] .init_array       INIT_ARRAY      0000000000602d60 002d60 000010 08  WA  0   0  8
+  [19] .fini_array       FINI_ARRAY      0000000000602d70 002d70 000008 08  WA  0   0  8
+  [20] .dynamic          DYNAMIC         0000000000602d78 002d78 000230 10  WA  5   0  8
+  [21] .got              PROGBITS        0000000000602fa8 002fa8 000058 08  WA  0   0  8
+  [22] .got.plt          PROGBITS        0000000000603000 003000 000150 08  WA  0   0  8
+  [23] .data             PROGBITS        0000000000603150 003150 000010 00  WA  0   0  8
+  [24] .bss              NOBITS          0000000000603160 003160 000008 00  WA  0   0  4
+  [25] .comment          PROGBITS        0000000000000000 003160 00003e 01  MS  0   0  1
+  [26] .debug_aranges    PROGBITS        0000000000000000 00319e 000050 00      0   0  1
+  [27] .debug_info       PROGBITS        0000000000000000 0031ee 0037ca 00      0   0  1
+  [28] .debug_abbrev     PROGBITS        0000000000000000 0069b8 0004be 00      0   0  1
+  [29] .debug_line       PROGBITS        0000000000000000 006e76 0004da 00      0   0  1
+  [30] .debug_str        PROGBITS        0000000000000000 007350 002000 01  MS  0   0  1
+  [31] .debug_loc        PROGBITS        0000000000000000 009350 0007f5 00      0   0  1
+  [32] .debug_ranges     PROGBITS        0000000000000000 009b45 000240 00      0   0  1
+  [33] .symtab           SYMTAB          0000000000000000 009d88 000b88 18     34  70  8
+  [34] .strtab           STRTAB          0000000000000000 00a910 000562 00      0   0  1
+  [35] .shstrtab         STRTAB          0000000000000000 00ae72 00014b 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), l (large)
+  I (info), L (link order), G (group), T (TLS), E (exclude), x (unknown)
+  O (extra OS processing required) o (OS specific), p (processor specific)
+
+There are no section groups in this file.
+
+Program Headers:
+  Type           Offset   VirtAddr           PhysAddr           FileSiz  MemSiz   Flg Align
+  PHDR           0x000040 ( 64B) 0x0000000000400040 (4.000061M) 0x0000000000400040 (4.000061M) 0x000230 (560B) 0x000230 (560B) R E 0x8
+  INTERP         0x000270 (624B) 0x0000000000400270 (4.000595M) 0x0000000000400270 (4.000595M) 0x00001c ( 28B) 0x00001c ( 28B) R   0x1
+      [Requesting program interpreter: /lib64/ld-linux-x86-64.so.2]
+  LOAD           0x000000 (  0B) 0x0000000000400000 (4.0M) 0x0000000000400000 (4.0M) 0x002138 (8.304688K) 0x002138 (8.304688K) R E 0x200000 (2.0M)
+  LOAD           0x002d60 (11.34375K) 0x0000000000602d60 (6.011078M) 0x0000000000602d60 (6.011078M) 0x000400 (1.0K) 0x000408 (1.007812K) RW  0x200000 (2.0M)
+  DYNAMIC        0x002d78 (11.367188K) 0x0000000000602d78 (6.011101M) 0x0000000000602d78 (6.011101M) 0x000230 (560B) 0x000230 (560B) RW  0x8
+  NOTE           0x00028c (652B) 0x000000000040028c (4.000622M) 0x000000000040028c (4.000622M) 0x000020 ( 32B) 0x000020 ( 32B) R   0x4
+  TLS            0x002d60 (11.34375K) 0x0000000000602d60 (6.011078M) 0x0000000000602d60 (6.011078M) 0x000000 (  0B) 0x002aa8 (10.664062K) R   0x8
+  GNU_EH_FRAME   0x001f98 (7.898438K) 0x0000000000401f98 (4.007713M) 0x0000000000401f98 (4.007713M) 0x000054 ( 84B) 0x000054 ( 84B) R   0x4
+  GNU_STACK      0x000000 (  0B) 0x0000000000000000 (  0B) 0x0000000000000000 (  0B) 0x000000 (  0B) 0x000000 (  0B) RW  0x10
+  GNU_RELRO      0x002d60 (11.34375K) 0x0000000000602d60 (6.011078M) 0x0000000000602d60 (6.011078M) 0x0002a0 (672B) 0x0002a0 (672B) R   0x1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     
+   01     .interp 
+   02     .interp .note.ABI-tag .hash .dynsym .dynstr .gnu.version .gnu.version_r .rela.dyn .rela.plt .init .plt .text .fini .rodata .eh_frame_hdr .eh_frame 
+   03     .init_array .fini_array .dynamic .got .got.plt .data .bss 
+   04     .dynamic 
+   05     .note.ABI-tag 
+   06     .tbss 
+   07     .eh_frame_hdr 
+   08     
+   09     .init_array .fini_array .dynamic .got 
+
+Dynamic section at offset 0x2d78 contains 30 entries:
+  Tag        Type                         Name/Value
+ 0x0000000000000001 (  1B) (NEEDED)             Shared library: [libjulia.so.1]
+ 0x0000000000000001 (  1B) (NEEDED)             Shared library: [libdl.so.2]
+ 0x0000000000000001 (  1B) (NEEDED)             Shared library: [librt.so.1]
+ 0x0000000000000001 (  1B) (NEEDED)             Shared library: [libpthread.so.0]
+ 0x0000000000000001 (  1B) (NEEDED)             Shared library: [libc.so.6]
+ 0x000000000000000f ( 15B) (RPATH)              Library rpath: [$ORIGIN/../lib]
+ 0x000000000000000c ( 12B) (INIT)               0x401200 (4.004395M)
+ 0x000000000000000d ( 13B) (FINI)               0x401dec (4.007305M)
+ 0x0000000000000019 ( 25B) (INIT_ARRAY)         0x602d60 (6.011078M)
+ 0x000000000000001b ( 27B) (INIT_ARRAYSZ)       16 (bytes)
+ 0x000000000000001a ( 26B) (FINI_ARRAY)         0x602d70 (6.011093M)
+ 0x000000000000001c ( 28B) (FINI_ARRAYSZ)       8 (bytes)
+ 0x0000000000000004 (  4B) (HASH)               0x4002b0 (4.000656M)
+ 0x0000000000000005 (  5B) (STRTAB)             0x400938 (4.002251M)
+ 0x0000000000000006 (  6B) (SYMTAB)             0x400428 (4.001015M)
+ 0x000000000000000a ( 10B) (STRSZ)              876 (bytes)
+ 0x000000000000000b ( 11B) (SYMENT)             24 (bytes)
+ 0x0000000000000015 ( 21B) (DEBUG)              0x0
+ 0x0000000000000003 (  3B) (PLTGOT)             0x603000 (6.011719M)
+ 0x0000000000000002 (  2B) (PLTRELSZ)           936 (bytes)
+ 0x0000000000000014 ( 20B) (PLTREL)             RELA
+ 0x0000000000000017 ( 23B) (JMPREL)             0x400e58 (4.003502M)
+ 0x0000000000000007 (  7B) (RELA)               0x400d50 (4.00325M)
+ 0x0000000000000008 (  8B) (RELASZ)             264 (bytes)
+ 0x0000000000000009 (  9B) (RELAENT)            24 (bytes)
+ 0x000000006ffffffb (1.75G) (FLAGS_1)            Flags: ORIGIN
+ 0x000000006ffffffe (1.75G) (VERNEED)            0x400d10 (4.003189M)
+ 0x000000006fffffff (1.75G) (VERNEEDNUM)         2
+ 0x000000006ffffff0 (1.75G) (VERSYM)             0x400ca4 (4.003086M)
+ 0x0000000000000000 (  0B) (NULL)               0x0
+
+Relocation section '.rela.dyn' at offset 0xd50 contains 11 entries:
+    Offset             Info             Type               Symbol's Value  Symbol's Name + Addend
+0000000000602fa8  0000000600000006 R_X86_64_GLOB_DAT      0000000000000000 _ITM_deregisterTMCloneTable + 0
+0000000000602fb0  0000000800000006 R_X86_64_GLOB_DAT      0000000000000000 jl_main_module + 0
+0000000000602fb8  0000001100000006 R_X86_64_GLOB_DAT      0000000000000000 __gmon_start__ + 0
+0000000000602fc0  0000001700000006 R_X86_64_GLOB_DAT      0000000000000000 jl_errorexception_type + 0
+0000000000602fc8  0000001b00000006 R_X86_64_GLOB_DAT      0000000000000000 jl_uv_stderr + 0
+0000000000602fd0  0000001d00000006 R_X86_64_GLOB_DAT      0000000000000000 jl_base_module + 0
+0000000000602fd8  0000001e00000006 R_X86_64_GLOB_DAT      0000000000000000 ios_stdin + 0
+0000000000602fe0  0000002400000006 R_X86_64_GLOB_DAT      0000000000000000 jl_options + 0
+0000000000602fe8  0000002900000006 R_X86_64_GLOB_DAT      0000000000000000 _ITM_registerTMCloneTable + 0
+0000000000602ff0  0000003000000006 R_X86_64_GLOB_DAT      0000000000000000 ios_stdout + 0
+0000000000602ff8  0000003400000006 R_X86_64_GLOB_DAT      0000000000000000 jl_uv_stdout + 0
+
+Relocation section '.rela.plt' at offset 0xe58 contains 39 entries:
+    Offset             Info             Type               Symbol's Value  Symbol's Name + Addend
+0000000000603018  0000000100000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_printf + 0
+0000000000603020  0000000200000007 R_X86_64_JUMP_SLOT     0000000000000000 jlbacktrace + 0
+0000000000603028  0000000300000007 R_X86_64_JUMP_SLOT     0000000000000000 ios_write + 0
+0000000000603030  0000000500000007 R_X86_64_JUMP_SLOT     0000000000000000 julia_init__threading + 0
+0000000000603038  0000000700000007 R_X86_64_JUMP_SLOT     0000000000000000 memmove@GLIBC_2.2.5 + 0
+0000000000603040  0000000900000007 R_X86_64_JUMP_SLOT     0000000000000000 __assert_fail@GLIBC_2.2.5 + 0
+0000000000603048  0000000a00000007 R_X86_64_JUMP_SLOT     0000000000000000 free@GLIBC_2.2.5 + 0
+0000000000603050  0000000b00000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_enter_handler + 0
+0000000000603058  0000000c00000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_apply_generic + 0
+0000000000603060  0000000d00000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_eval_string + 0
+0000000000603068  0000000e00000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_load + 0
+0000000000603070  0000000f00000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_static_show + 0
+0000000000603078  0000001000000007 R_X86_64_JUMP_SLOT     0000000000000000 ios_readline + 0
+0000000000603080  0000001200000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_symbol + 0
+0000000000603088  0000001300000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_get_ptls_states + 0
+0000000000603090  0000001400000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_global_event_loop + 0
+0000000000603098  0000001500000007 R_X86_64_JUMP_SLOT     0000000000000000 ios_eof + 0
+00000000006030a0  0000001600000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_call2 + 0
+00000000006030a8  0000001800000007 R_X86_64_JUMP_SLOT     0000000000000000 ios_flush + 0
+00000000006030b0  0000001900000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_parse_opts + 0
+00000000006030b8  0000001a00000007 R_X86_64_JUMP_SLOT     0000000000000000 pthread_self@GLIBC_2.2.5 + 0
+00000000006030c0  0000001c00000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_exception_occurred + 0
+00000000006030c8  0000001f00000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_lisp_prompt + 0
+00000000006030d0  0000002000000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_no_exc_handler + 0
+00000000006030d8  0000002100000007 R_X86_64_JUMP_SLOT     0000000000000000 strcmp@GLIBC_2.2.5 + 0
+00000000006030e0  0000002200000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_stderr_obj + 0
+00000000006030e8  0000002500000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_get_world_counter + 0
+00000000006030f0  0000002600000007 R_X86_64_JUMP_SLOT     0000000000000000 malloc@GLIBC_2.2.5 + 0
+00000000006030f8  0000002700000007 R_X86_64_JUMP_SLOT     0000000000000000 __libc_start_main@GLIBC_2.2.5 + 0
+0000000000603100  0000002800000007 R_X86_64_JUMP_SLOT     0000000000000000 libsupport_init + 0
+0000000000603108  0000002a00000007 R_X86_64_JUMP_SLOT     0000000000000000 __sigsetjmp@GLIBC_2.2.5 + 0
+0000000000603110  0000002b00000007 R_X86_64_JUMP_SLOT     0000000000000000 uv_setup_args + 0
+0000000000603118  0000002c00000007 R_X86_64_JUMP_SLOT     0000000000000000 memcpy@GLIBC_2.2.5 + 0
+0000000000603120  0000002d00000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_atexit_hook + 0
+0000000000603128  0000002e00000007 R_X86_64_JUMP_SLOT     0000000000000000 uv_run + 0
+0000000000603130  0000002f00000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_set_ptls_states_getter + 0
+0000000000603138  0000003100000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_get_global + 0
+0000000000603140  0000003200000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_set_ARGS + 0
+0000000000603148  0000003500000007 R_X86_64_JUMP_SLOT     0000000000000000 jl_exception_clear + 0
+
+The decoding of unwind sections for machine type Advanced Micro Devices X86-64 is not currently supported.
+
+Symbol table '.dynsym' contains 54 entries:
+   Num:    Value          Size Type    Bind   Vis      Ndx Name
+     0: 0000000000000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_printf
+     2: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jlbacktrace
+     3: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND ios_write
+     4: 00000000004016a0    16 FUNC    GLOBAL DEFAULT   12 jl_get_ptls_states_static
+     5: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND julia_init__threading
+     6: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+     7: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND memmove@GLIBC_2.2.5 (2)
+     8: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND jl_main_module
+     9: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __assert_fail@GLIBC_2.2.5 (2)
+    10: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND free@GLIBC_2.2.5 (2)
+    11: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_enter_handler
+    12: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_apply_generic
+    13: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_eval_string
+    14: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_load
+    15: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_static_show
+    16: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND ios_readline
+    17: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+    18: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_symbol
+    19: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_get_ptls_states
+    20: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_global_event_loop
+    21: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND ios_eof
+    22: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_call2
+    23: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND jl_errorexception_type
+    24: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND ios_flush
+    25: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_parse_opts
+    26: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND pthread_self@GLIBC_2.2.5 (3)
+    27: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND jl_uv_stderr
+    28: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_exception_occurred
+    29: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND jl_base_module
+    30: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND ios_stdin
+    31: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_lisp_prompt
+    32: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_no_exc_handler
+    33: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@GLIBC_2.2.5 (2)
+    34: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_stderr_obj
+    35: 0000000000401490    12 FUNC    GLOBAL DEFAULT   12 jl_register_ptls_states_getter
+    36: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND jl_options
+    37: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_get_world_counter
+    38: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND malloc@GLIBC_2.2.5 (2)
+    39: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __libc_start_main@GLIBC_2.2.5 (2)
+    40: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND libsupport_init
+    41: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+    42: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __sigsetjmp@GLIBC_2.2.5 (2)
+    43: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND uv_setup_args
+    44: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@GLIBC_2.2.5 (2)
+    45: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_atexit_hook
+    46: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND uv_run
+    47: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_set_ptls_states_getter
+    48: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND ios_stdout
+    49: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_get_global
+    50: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_set_ARGS
+    51: 0000000000401e00     4 OBJECT  GLOBAL DEFAULT   14 _IO_stdin_used
+    52: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND jl_uv_stdout
+    53: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_exception_clear
+
+Symbol table '.symtab' contains 123 entries:
+   Num:    Value          Size Type    Bind   Vis      Ndx Name
+     0: 0000000000000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 0000000000400270     0 SECTION LOCAL  DEFAULT    1 
+     2: 000000000040028c     0 SECTION LOCAL  DEFAULT    2 
+     3: 00000000004002b0     0 SECTION LOCAL  DEFAULT    3 
+     4: 0000000000400428     0 SECTION LOCAL  DEFAULT    4 
+     5: 0000000000400938     0 SECTION LOCAL  DEFAULT    5 
+     6: 0000000000400ca4     0 SECTION LOCAL  DEFAULT    6 
+     7: 0000000000400d10     0 SECTION LOCAL  DEFAULT    7 
+     8: 0000000000400d50     0 SECTION LOCAL  DEFAULT    8 
+     9: 0000000000400e58     0 SECTION LOCAL  DEFAULT    9 
+    10: 0000000000401200     0 SECTION LOCAL  DEFAULT   10 
+    11: 0000000000401210     0 SECTION LOCAL  DEFAULT   11 
+    12: 0000000000401490     0 SECTION LOCAL  DEFAULT   12 
+    13: 0000000000401dec     0 SECTION LOCAL  DEFAULT   13 
+    14: 0000000000401e00     0 SECTION LOCAL  DEFAULT   14 
+    15: 0000000000401f98     0 SECTION LOCAL  DEFAULT   15 
+    16: 0000000000401ff0     0 SECTION LOCAL  DEFAULT   16 
+    17: 0000000000602d60     0 SECTION LOCAL  DEFAULT   17 
+    18: 0000000000602d60     0 SECTION LOCAL  DEFAULT   18 
+    19: 0000000000602d70     0 SECTION LOCAL  DEFAULT   19 
+    20: 0000000000602d78     0 SECTION LOCAL  DEFAULT   20 
+    21: 0000000000602fa8     0 SECTION LOCAL  DEFAULT   21 
+    22: 0000000000603000     0 SECTION LOCAL  DEFAULT   22 
+    23: 0000000000603150     0 SECTION LOCAL  DEFAULT   23 
+    24: 0000000000603160     0 SECTION LOCAL  DEFAULT   24 
+    25: 0000000000000000     0 SECTION LOCAL  DEFAULT   25 
+    26: 0000000000000000     0 SECTION LOCAL  DEFAULT   26 
+    27: 0000000000000000     0 SECTION LOCAL  DEFAULT   27 
+    28: 0000000000000000     0 SECTION LOCAL  DEFAULT   28 
+    29: 0000000000000000     0 SECTION LOCAL  DEFAULT   29 
+    30: 0000000000000000     0 SECTION LOCAL  DEFAULT   30 
+    31: 0000000000000000     0 SECTION LOCAL  DEFAULT   31 
+    32: 0000000000000000     0 SECTION LOCAL  DEFAULT   32 
+    33: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS /usr/lib/../lib64/crti.o
+    34: 00000000004015b8     0 FUNC    LOCAL  DEFAULT   12 call_gmon_start
+    35: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS repl.c
+    36: 0000000000000000 10920 TLS     LOCAL  DEFAULT   17 tls_states.35154
+    37: 00000000004016b0   313 FUNC    LOCAL  DEFAULT   12 jl_eh_restore_state
+    38: 0000000000401f80    21 OBJECT  LOCAL  DEFAULT   14 __PRETTY_FUNCTION__.34956
+    39: 00000000004017f0   581 FUNC    LOCAL  DEFAULT   12 exec_program
+    40: 0000000000401a40   776 FUNC    LOCAL  DEFAULT   12 true_main
+    41: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+    42: 00000000004015d0     0 FUNC    LOCAL  DEFAULT   12 deregister_tm_clones
+    43: 0000000000401610     0 FUNC    LOCAL  DEFAULT   12 register_tm_clones
+    44: 0000000000401660     0 FUNC    LOCAL  DEFAULT   12 __do_global_dtors_aux
+    45: 0000000000603160     1 OBJECT  LOCAL  DEFAULT   24 completed.6875
+    46: 0000000000602d70     0 OBJECT  LOCAL  DEFAULT   19 __do_global_dtors_aux_fini_array_entry
+    47: 0000000000401690     0 FUNC    LOCAL  DEFAULT   12 frame_dummy
+    48: 0000000000602d60     0 OBJECT  LOCAL  DEFAULT   18 __frame_dummy_init_array_entry
+    49: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+    50: 0000000000402134     0 OBJECT  LOCAL  DEFAULT   16 __FRAME_END__
+    51: 0000000000000000     0 FILE    LOCAL  DEFAULT  ABS 
+    52: 00000000004014a0   236 FUNC    LOCAL  DEFAULT   12 main
+    53: 0000000000603160     0 OBJECT  LOCAL  DEFAULT   23 __TMC_END__
+    54: 000000000040158c     0 FUNC    LOCAL  DEFAULT   12 _start
+    55: 0000000000401dec     0 FUNC    LOCAL  DEFAULT   13 _fini
+    56: 0000000000401d50     2 FUNC    LOCAL  DEFAULT   12 __libc_csu_fini
+    57: 0000000000602d70     0 NOTYPE  LOCAL  DEFAULT   18 __init_array_end
+    58: 0000000000603150     0 NOTYPE  LOCAL  DEFAULT   23 __data_start
+    59: 0000000000603160     0 NOTYPE  LOCAL  DEFAULT   24 __bss_start
+    60: 0000000000602d60     0 NOTYPE  LOCAL  DEFAULT   18 __init_array_start
+    61: 0000000000603168     0 NOTYPE  LOCAL  DEFAULT   24 _end
+    62: 0000000000603160     0 NOTYPE  LOCAL  DEFAULT   23 _edata
+    63: 0000000000603000     0 OBJECT  LOCAL  DEFAULT   22 _GLOBAL_OFFSET_TABLE_
+    64: 0000000000602d78     0 OBJECT  LOCAL  DEFAULT   20 _DYNAMIC
+    65: 0000000000401d60   137 FUNC    LOCAL  DEFAULT   12 __libc_csu_init
+    66: 0000000000401200     0 FUNC    LOCAL  DEFAULT   10 _init
+    67: 0000000000401f98     0 NOTYPE  LOCAL  DEFAULT   15 __GNU_EH_FRAME_HDR
+    68: 0000000000603150     0 NOTYPE  LOCAL  DEFAULT   23 data_start
+    69: 0000000000603158     0 OBJECT  LOCAL  DEFAULT   23 __dso_handle
+    70: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_printf
+    71: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jlbacktrace
+    72: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND ios_write
+    73: 00000000004016a0    16 FUNC    GLOBAL DEFAULT   12 jl_get_ptls_states_static
+    74: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND julia_init__threading
+    75: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterTMCloneTable
+    76: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND memmove@@GLIBC_2.2.5
+    77: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND jl_main_module
+    78: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __assert_fail@@GLIBC_2.2.5
+    79: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND free@@GLIBC_2.2.5
+    80: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_enter_handler
+    81: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_apply_generic
+    82: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_eval_string
+    83: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_load
+    84: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_static_show
+    85: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND ios_readline
+    86: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND __gmon_start__
+    87: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_symbol
+    88: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_get_ptls_states
+    89: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_global_event_loop
+    90: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND ios_eof
+    91: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_call2
+    92: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND jl_errorexception_type
+    93: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND ios_flush
+    94: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_parse_opts
+    95: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND pthread_self@@GLIBC_2.2.5
+    96: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND jl_uv_stderr
+    97: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_exception_occurred
+    98: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND jl_base_module
+    99: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND ios_stdin
+   100: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_lisp_prompt
+   101: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_no_exc_handler
+   102: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@@GLIBC_2.2.5
+   103: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_stderr_obj
+   104: 0000000000401490    12 FUNC    GLOBAL DEFAULT   12 jl_register_ptls_states_getter
+   105: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND jl_options
+   106: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_get_world_counter
+   107: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND malloc@@GLIBC_2.2.5
+   108: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __libc_start_main@@GLIBC_2.2.5
+   109: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND libsupport_init
+   110: 0000000000000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMCloneTable
+   111: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND __sigsetjmp@@GLIBC_2.2.5
+   112: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND uv_setup_args
+   113: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@@GLIBC_2.2.5
+   114: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_atexit_hook
+   115: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND uv_run
+   116: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_set_ptls_states_getter
+   117: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND ios_stdout
+   118: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_get_global
+   119: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_set_ARGS
+   120: 0000000000401e00     4 OBJECT  GLOBAL DEFAULT   14 _IO_stdin_used
+   121: 0000000000000000     0 OBJECT  GLOBAL DEFAULT  UND jl_uv_stdout
+   122: 0000000000000000     0 FUNC    GLOBAL DEFAULT  UND jl_exception_clear
+
+Histogram for bucket list length (total of 37 buckets):
+ Length  Number     % of total  Coverage
+      0  18         ( 48.6%)
+      1  15         ( 40.5%)     62.5%
+      2  3          (  8.1%)     87.5%
+      3  1          (  2.7%)    100.0%
+
+Version symbols section '.gnu.version' contains 54 entries:
+ Addr: 0000000000400ca4  Offset: 0x000ca4 (3.160156K)  Link: 4 (.dynsym)
+  000:   0 (*local*)       0 (*local*)       0 (*local*)       0 (*local*)    
+  004:   1 (*global*)      0 (*local*)       0 (*local*)       2 (GLIBC_2.2.5)
+  008:   0 (*local*)       2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)   0 (*local*)    
+  00c:   0 (*local*)       0 (*local*)       0 (*local*)       0 (*local*)    
+  010:   0 (*local*)       0 (*local*)       0 (*local*)       0 (*local*)    
+  014:   0 (*local*)       0 (*local*)       0 (*local*)       0 (*local*)    
+  018:   0 (*local*)       0 (*local*)       3 (GLIBC_2.2.5)   0 (*local*)    
+  01c:   0 (*local*)       0 (*local*)       0 (*local*)       0 (*local*)    
+  020:   0 (*local*)       2 (GLIBC_2.2.5)   0 (*local*)       1 (*global*)   
+  024:   0 (*local*)       0 (*local*)       2 (GLIBC_2.2.5)   2 (GLIBC_2.2.5)
+  028:   0 (*local*)       0 (*local*)       2 (GLIBC_2.2.5)   0 (*local*)    
+  02c:   2 (GLIBC_2.2.5)   0 (*local*)       0 (*local*)       0 (*local*)    
+  030:   0 (*local*)       0 (*local*)       0 (*local*)       1 (*global*)   
+  034:   0 (*local*)       0 (*local*)    
+
+Version needs section '.gnu.version_r' contains 2 entries:
+ Addr: 0x0000000000400d10 (4.003189M)  Offset: 0x000d10 (3.265625K)  Link: 5 (.dynstr)
+  000000: Version: 1  File: libpthread.so.0  Cnt: 1
+  0x0010:   Name: GLIBC_2.2.5  Flags: none  Version: 3
+  0x0020: Version: 1  File: libc.so.6  Cnt: 1
+  0x0030:   Name: GLIBC_2.2.5  Flags: none  Version: 2
+
+Displaying notes found at file offset 0x0000028c (652B) with length 0x00000020 ( 32B):
+  Owner                 Data size	Description
+  GNU                  0x00000010 ( 16B)	NT_GNU_ABI_TAG (ABI version tag)
+    OS: Linux, ABI: 2.6.18
+-----------
+   text	   data	    bss	    dec	    hex	filename
+   7852	   1024	  10928	  19804	   4d5c	/usr/local/bin/julia
+   text	   data	    bss	    dec	    hex	filename
+ 997958	  36496	  23480	1057934	 10248e	/bin/bash
+-----------
+-rwxr-xr-x 1 vili2 vili2 47K 9月  30 03:22 /usr/local/julia-1.0.1/bin/julia*
+-rwxr-xr-x 1 root root 1014K 5月  16  2017 /bin/bash
+	linux-vdso.so.1 =>  (0x00007ffc7cdd9000 (127.98628T))
+	libjulia.so.1 => /usr/local/julia-1.0.1/bin/../lib/libjulia.so.1 (0x00007f853f3ad000 (127.520496T))
+	libdl.so.2 => /lib/x86_64-linux-gnu/libdl.so.2 (0x00007f853f1a9000 (127.520494T))
+	librt.so.1 => /lib/x86_64-linux-gnu/librt.so.1 (0x00007f853efa1000 (127.520492T))
+	libpthread.so.0 => /lib/x86_64-linux-gnu/libpthread.so.0 (0x00007f853ed84000 (127.52049T))
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f853e9ba000 (127.520487T))
+	libLLVM-6.0.so => /usr/local/julia-1.0.1/bin/../lib/julia/libLLVM-6.0.so (0x00007f853bd1e000 (127.520444T))
+	libstdc++.so.6 => /usr/local/julia-1.0.1/bin/../lib/julia/libstdc++.so.6 (0x00007f853b9a0000 (127.520441T))
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f853b697000 (127.520438T))
+	libgcc_s.so.1 => /usr/local/julia-1.0.1/bin/../lib/julia/libgcc_s.so.1 (0x00007f853b47f000 (127.520436T))
+	/lib64/ld-linux-x86-64.so.2 (0x00007f853fb1f000 (127.520503T))

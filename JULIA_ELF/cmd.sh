@@ -1,7 +1,7 @@
-bin=$(which bat)
-LOG=$(basename $bin).log
-file $bin > $(basename $bin).log
-readelf -Wa $bin >> $(basename $bin).log
+bin=$(which julia)
+LOG=$(basename $bin).readelf
+file $bin > $LOG
+readelf -Wa $bin >> $LOG 
 
 echo "-----------" >>$LOG
 size $bin >> $LOG
