@@ -1,0 +1,116 @@
+/usr/bin/bat: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, BuildID[sha1]=9c965d2f4999d444c31afa1cf9b9a292356887f1, stripped
+ELF Header:
+  Magic:   7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF64
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           Advanced Micro Devices X86-64
+  Version:                           0x1
+  Entry point address:               0x400618
+  Start of program headers:          64 (bytes into file)
+  Start of section headers:          4998008 (bytes into file)
+  Flags:                             0x0
+  Size of this header:               64 (bytes)
+  Size of program headers:           56 (bytes)
+  Number of program headers:         7
+  Size of section headers:           64 (bytes)
+  Number of section headers:         18
+  Section header string table index: 17
+
+Section Headers:
+  [Nr] Name              Type             Address           Offset
+       Size              EntSize          Flags  Link  Info  Align
+  [ 0]                   NULL             0000000000000000  00000000
+       0000000000000000  0000000000000000           0     0     0
+  [ 1] .note.gnu.build-i NOTE             00000000004001c8  000001c8
+       0000000000000024  0000000000000000   A       0     0     4
+  [ 2] .init             PROGBITS         00000000004001ec  000001ec
+       0000000000000003  0000000000000000  AX       0     0     1
+  [ 3] .text             PROGBITS         00000000004001f0  000001f0
+       00000000002fc926  0000000000000000  AX       0     0     16
+  [ 4] .fini             PROGBITS         00000000006fcb16  002fcb16
+       0000000000000003  0000000000000000  AX       0     0     1
+  [ 5] .rodata           PROGBITS         00000000006fcb40  002fcb40
+       000000000011ad2e  0000000000000000   A       0     0     64
+  [ 6] .eh_frame_hdr     PROGBITS         0000000000817870  00417870
+       000000000000d784  0000000000000000   A       0     0     4
+  [ 7] .eh_frame         X86_64_UNWIND    0000000000824ff8  00424ff8
+       0000000000057958  0000000000000000   A       0     0     8
+  [ 8] .gcc_except_table PROGBITS         000000000087c950  0047c950
+       00000000000199c4  0000000000000000   A       0     0     4
+  [ 9] .tdata            PROGBITS         0000000000a96620  00496620
+       0000000000000098  0000000000000000 WAT       0     0     32
+  [10] .tbss             NOBITS           0000000000a966c0  004966b8
+       00000000000000e8  0000000000000000 WAT       0     0     32
+  [11] .init_array       INIT_ARRAY       0000000000a966c0  004966c0
+       0000000000000008  0000000000000000  WA       0     0     8
+  [12] .data.rel.ro      PROGBITS         0000000000a966e0  004966e0
+       0000000000028808  0000000000000000  WA       0     0     32
+  [13] .got              PROGBITS         0000000000abeee8  004beee8
+       0000000000000108  0000000000000008  WA       0     0     8
+  [14] .data             PROGBITS         0000000000abf000  004bf000
+       0000000000005270  0000000000000000  WA       0     0     32
+  [15] .bss              NOBITS           0000000000ac4280  004c4270
+       0000000000003900  0000000000000000  WA       0     0     32
+  [16] .comment          PROGBITS         0000000000000000  004c4270
+       0000000000000060  0000000000000001  MS       0     0     1
+  [17] .shstrtab         STRTAB           0000000000000000  004c42d0
+       00000000000000a1  0000000000000000           0     0     1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), l (large)
+  I (info), L (link order), G (group), T (TLS), E (exclude), x (unknown)
+  O (extra OS processing required) o (OS specific), p (processor specific)
+
+There are no section groups in this file.
+
+Program Headers:
+  Type           Offset             VirtAddr           PhysAddr
+                 FileSiz            MemSiz              Flags  Align
+  LOAD           0x0000000000000000 0x0000000000400000 0x0000000000400000
+                 0x0000000000496314 0x0000000000496314  R E    200000
+  LOAD           0x0000000000496620 0x0000000000a96620 0x0000000000a96620
+                 0x000000000002dc50 0x0000000000031560  RW     200000
+  NOTE           0x00000000000001c8 0x00000000004001c8 0x00000000004001c8
+                 0x0000000000000024 0x0000000000000024  R      4
+  TLS            0x0000000000496620 0x0000000000a96620 0x0000000000a96620
+                 0x0000000000000098 0x0000000000000188  R      20
+  GNU_EH_FRAME   0x0000000000417870 0x0000000000817870 0x0000000000817870
+                 0x000000000000d784 0x000000000000d784  R      4
+  GNU_STACK      0x0000000000000000 0x0000000000000000 0x0000000000000000
+                 0x0000000000000000 0x0000000000000000  RW     10
+  GNU_RELRO      0x0000000000496620 0x0000000000a96620 0x0000000000a96620
+                 0x00000000000289e0 0x00000000000289e0  R      1
+
+ Section to Segment mapping:
+  Segment Sections...
+   00     .note.gnu.build-id .init .text .fini .rodata .eh_frame_hdr .eh_frame .gcc_except_table 
+   01     .tdata .init_array .data.rel.ro .got .data .bss 
+   02     .note.gnu.build-id 
+   03     .tdata .tbss 
+   04     .eh_frame_hdr 
+   05     
+   06     .tdata .init_array .data.rel.ro .got 
+
+There is no dynamic section in this file.
+
+There are no relocations in this file.
+
+The decoding of unwind sections for machine type Advanced Micro Devices X86-64 is not currently supported.
+
+No version information found in this file.
+
+Displaying notes found at file offset 0x000001c8 with length 0x00000024:
+  Owner                 Data size	Description
+  GNU                  0x00000014	NT_GNU_BUILD_ID (unique build ID bitstring)
+    Build ID: 9c965d2f4999d444c31afa1cf9b9a292356887f1
+-----------
+   text	   data	    bss	    dec	    hex	filename
+4808990	 187424	  14824	5011238	 4c7726	/usr/bin/bat
+   text	   data	    bss	    dec	    hex	filename
+ 997958	  36496	  23480	1057934	 10248e	/bin/bash
+-----------
+-rwxr-xr-x 1 root root 4.8M 9月  23 17:01 /usr/bin/bat
+-rwxr-xr-x 1 root root 1014K 5月  16  2017 /bin/bash
